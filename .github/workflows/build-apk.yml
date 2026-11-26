@@ -17,7 +17,7 @@ jobs:
           java-version: '17'
 
       - name: Extract project ZIP
-        run: unzip -q musica-android-project.zip -d source
+        run: unzip -q musica-android-player-with-icon.zip -d source
 
       - name: Build debug APK
         uses: gradle/gradle-build-action@v3
